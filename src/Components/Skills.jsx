@@ -4,7 +4,7 @@ import { LayoutGroup, motion } from "framer-motion";
 
 function Skills() {
   return (
-    <div id="Skills" className="ml-12">
+    <div id="Skills" className='ml-6'>
       <h1 className="text-2xl sm:text-4xl font-bold mb-4 text-center mb-9">
         Skills
       </h1>
@@ -44,3 +44,6 @@ function Skills() {
 }
 
 export default Skills;
+
+
+
