@@ -1,0 +1,12 @@
+
+  .container {
+    position: relative;
+  }
+  
+  .droplet {
+    position: absolute;
+    border-radius: 50%;
+    transition: transform 2s ease-out, opacity 2s ease-out;
+    background-color: transparent;  /* Optional, if you want to ensure no background color */
+  }
+  
