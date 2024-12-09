@@ -64,7 +64,7 @@ function Contact() {
         <img
           src={assets.message_img}
           alt="Contact Us"
-          className="w-full h-screen object-cover"
+          className="w-full h-screen sm:w-[63%] h-[63%]"
         />
       </div>
 
