@@ -61,16 +61,17 @@ function Contact() {
     > 
      
       <div className="w-full lg:w-1/2 h-full flex justify-center items-center mb-10 lg:mb-0">
-        <img
-          src={assets.message_img}
-          alt="Contact Us"
-          className="w-full h-screen sm:w-[63%] h-[63%]"
-        />
+      <img
+      src={assets.message_img}
+  alt="Contact Us"
+  className="w-full h-screen sm:w-[63%] sm:h-auto"
+     />
+
       </div>
 
 
       <div className="w-full lg:w-1/2 text-left">
-        <h1 className="text-2xl sm:text-4xl font-bold mb-2 text-center">
+        <h1 className="text-2xl sm:text-4xl font-bold mb-2 text-start">
           Contact
           <span className="underline underline-offset-4 decoration-1 font-light"> With Us</span>
         </h1>
