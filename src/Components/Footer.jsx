@@ -36,7 +36,7 @@ function Footer() {
                     
                     <Subscribe/>
                   </div>
-                  <a href="https://www.youtube.com/"><button className='py-2 px-4 mt-4 rounded border border-white text-white'>View Resume</button></a>
+                  <a href="https://drive.google.com/file/d/1hDJOLueAWUebX6Ia0zDPCei9obq_nc3n/view?usp=sharing"><button className='py-2 px-4 mt-4 rounded border border-white text-white'>View Resume</button></a>
                  
             </div>
         </div>
