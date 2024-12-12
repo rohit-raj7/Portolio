@@ -1,10 +1,13 @@
+
+
+
 import React from 'react';
 import { skillData } from '../assets/assets';
 import { LayoutGroup, motion } from "framer-motion";
 
 function Skills() {
   return (
-    <div id="Skills" className='ml-6'>
+    <div id="Skills" className='ml-10 w-1/2'>
       <h1 className="text-2xl sm:text-4xl font-bold mb-4 text-center mb-9">
         Skills
       </h1>
@@ -23,15 +26,17 @@ function Skills() {
               <h2 className="text-xl font-semibold mb-4 capitalize">
                 {category.category}
               </h2>
-              <div className="grid grid-cols-4 sm:grid-cols-4 gap-4">
+              <div className="grid grid-cols-4 sm:grid-cols-4 gap-6">
                 {category.skills.map((skill, skillIndex) => (
-                  <div key={skillIndex} className="flex flex-col items-center">
+                  <div key={skillIndex} className="flex flex-col items-center gap-2">
                     <img
                       src={skill.logo}
                       alt={skill.title}
-                      className="w-12 h-12 mb-2"
+                      className="w-12 h-12"
                     />
-                    <span className="text-center text-sm">{skill.title}</span>
+                    <span className="text-center text-sm">
+                      {skill.title}
+                    </span>
                   </div>
                 ))}
               </div>
@@ -44,6 +49,3 @@ function Skills() {
 }
 
 export default Skills;
-
-
-
