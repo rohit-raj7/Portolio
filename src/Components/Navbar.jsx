@@ -20,8 +20,8 @@ function Navbar() {
     <div className="absolute top-0 left-0 w-full z-10">
       <div className="container mx-auto flex justify-between items-center py-4 px-6 md:px-20 lg:px-32 bg-transparent">
         <div className="flex items-center space-x-2">
-          <img src={assets.logo} alt="Logo" className="h-8 w-8" />
-          <span className='text-3xl font-medium'>Rohit Raj</span>
+          <img src={assets.logo} alt="Logo" className="h-10 w-10" />
+{/*           <span className='text-3xl font-medium'>Rohit Raj</span> */}
         </div>
 
         <ul className="hidden md:flex gap-7 text-lg text-white">
