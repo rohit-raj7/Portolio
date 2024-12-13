@@ -38,11 +38,11 @@ function Navbar() {
           <a href="#Project" className="cursor-pointer hover:text-gray-400">Projects</a>
           <a href="#Experience" className="cursor-pointer hover:text-gray-400">Experience</a>
         </ul>
-       <button className=" text-white border border-white px-8 py-2 rounded-full">
+       {/* <button className=" text-white border border-white px-8 py-2 rounded-full">
       Sign Up
-      </button>
+      </button> */}
         <div className="cursor-pointer">
-          <p onClick={() => setShowMobileMenu(true)} className="md:hidden w-13 h-13 text-3xl text-white rounded-full cursor-pointer">&#8801;</p>
+          <p onClick={() => setShowMobileMenu(true)} className="md:hidden w-14 h-14 text-4xl mr-2 text-white rounded-full cursor-pointer">&#8801;</p>
         </div>
       </div>
       {showMobileMenu && (
