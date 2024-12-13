@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { toast } from 'react-toastify';
 import { assets } from '../assets/assets';
@@ -56,29 +57,28 @@ function Contact() {
 
   return (
     <div
-      
-      id="Contact" className="text-center p-6 py-20 lg:px-32 w-full overflow-hidden flex flex-col lg:flex-row items-center justify-between"
-    > 
-     
-      <div className="w-full lg:w-1/2 h-full flex justify-center items-center mb-10 lg:mb-0">
-      <img
-      src={assets.message_img}
-  alt="Contact Us"
-  className="w-full h-screen sm:w-[63%] sm:h-auto"
-     />
-
+      id="Contact"
+      className="text-center p-6 py-10 lg:py-20 lg:px-32 w-full flex flex-col lg:flex-row items-center justify-between"
+    >
+      {/* Left Section */}
+      <div className="w-full lg:w-1/2 flex justify-center items-center mb-8 lg:mb-0">
+        <img
+          src={assets.message_img}
+          alt="Contact Us"
+          className="w-full sm:w-3/4 h-auto"
+        />
       </div>
 
-
-      <div className="w-full lg:w-1/2 text-left">
-        <h1 className="text-2xl sm:text-4xl font-bold mb-2 text-start">
+      {/* Right Section */}
+      <div className="w-full lg:w-1/2">
+        <h1 className="text-xl sm:text-2xl lg:text-4xl font-bold mb-4 text-start">
           Contact
           <span className="underline underline-offset-4 decoration-1 font-light"> With Us</span>
         </h1>
         <form onSubmit={onSubmit} className="flex flex-wrap max-w-2xl mx-auto text-gray-600 pt-8 gap-4">
           <div className="w-full md:w-1/2 text-left">
             <label className="block mb-2 text-sm font-medium text-gray-100">Your Name</label>
-            <input
+             <input
               className="w-full border border-gray-300 rounded py-3 px-4 mt-2 focus:ring-2 focus:ring-blue-500 focus:outline-none"
               name="Name"
               type="text"
@@ -123,7 +123,6 @@ function Contact() {
           </button>
         </form>
       </div>
-     
     </div>
   );
 }
