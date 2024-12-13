@@ -9,7 +9,7 @@ function Header() {
   return (
     <div
       id="Header"
-      className="ml-4 min-h-screen flex flex-col md:flex-row justify-between items-center w-full pt-12 overflow-hidden relative"
+      className="ml-2 min-h-screen flex flex-col md:flex-row justify-between items-center w-full pt-12 overflow-hidden relative"
     >
       <Navbar />
 
