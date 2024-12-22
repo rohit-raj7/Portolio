@@ -18,9 +18,9 @@ function App() {
   return (
     <div className="w-full overflow-hidden">
   
-{/*       <ToastContainer/>
+      <ToastContainer/>
       <Header />
-      <About /> */}
+      <About />
       <Education/>
       <div className="flex flex-col justify-around gap-8 md:flex-row ">
         <Skills />
