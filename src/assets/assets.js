@@ -307,4 +307,15 @@ export const projectData = [
     link_src:"https://rohit-raj-portfoli-11-024.netlify.app/my_project/weather/",
     text: "A weather app that provides real-time data using a weather API...",
   },
+    {
+    name: "Portfolio",
+    title: "Tech Stack",
+    techStack: [language_img4, language_img5, language_img6],
+    image: Task_management_img,
+    github: github_img,
+    github_src:"https://github.com/rohit-raj7/Portolio",
+    link: link_img,
+    link_src:"https://rohit-raj.netlify.app/",
+    text: "Create a personal portfolio using React: showcase projects, skills, responsive design, and interactive user interface...",
+  },
 ];
