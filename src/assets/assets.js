@@ -304,7 +304,7 @@ export const projectData = [
     github: github_img,
     github_src:"https://github.com/rohit-raj7",
     link: link_img,
-    link_src:"https://rohit-raj-portfoli-11-024.netlify.app/my_project/weather/",
+    link_src:"https://weathe-app-rohit.netlify.app/",
     text: "A weather app that provides real-time data using a weather API...",
   },
     {
