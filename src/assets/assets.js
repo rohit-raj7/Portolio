@@ -282,7 +282,7 @@ export const projectData = [
     github: github_img,
     github_src:"https://github.com/rohit-raj7/queens-visulation",
     link: link_img,
-    link_src:"https://rohit-raj-portfoli.netlify.app/my_project/n-queen%20_visualiser/queen",
+    link_src:"https://queue-visulation.netlify.app/",
     text: "The N-Queens Visualizer demonstrates step-by-step solutions to the N-Queens problem with clear visual representation...",
   },
   {
@@ -304,7 +304,7 @@ export const projectData = [
     github: github_img,
     github_src:"https://github.com/rohit-raj7",
     link: link_img,
-    link_src:"https://rohit-raj-portfoli.netlify.app/my_project/weather/",
+    link_src:"https://rohit-raj-portfoli-11-024.netlify.app/my_project/weather/",
     text: "A weather app that provides real-time data using a weather API...",
   },
 ];
