@@ -5,7 +5,9 @@ function Navbar() {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
   const [showAboutMenu, setShowAboutMenu] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
-   useEffect(() => {
+
+  // Handle scroll to fix the navbar
+  useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 50) {
         setIsScrolled(true);
@@ -33,11 +35,10 @@ function Navbar() {
   }, [showMobileMenu]);
 
   return (
-    <div className="absolute top-0 left-0 w-full z-10">
-      <div className="container mx-auto flex justify-between items-center py-4 px-6 md:px-20 lg:px-32 bg-transparent">
+    <div className={`w-full z-10 ${isScrolled ? "fixed top-0 left-0 bg-gray-800 shadow-md" : "absolute top-0 left-0"} transition-all`}>
+      <div className="container mx-auto flex justify-between items-center py-4 px-6 md:px-20 lg:px-32">
         <div className="flex items-center space-x-2">
           <img src={assets.logo} alt="Logo" className="h-10 w-10" />
-{/*           <span className='text-3xl font-medium'>Rohit Raj</span> */}
         </div>
 
         <ul className="hidden md:flex gap-7 text-lg text-white">
@@ -54,13 +55,12 @@ function Navbar() {
           <a href="#Project" className="cursor-pointer hover:text-gray-400">Projects</a>
           <a href="#Experience" className="cursor-pointer hover:text-gray-400">Experience</a>
         </ul>
-       {/* <button className=" text-white border border-white px-8 py-2 rounded-full">
-      Sign Up
-      </button> */}
+
         <div className="cursor-pointer">
           <p onClick={() => setShowMobileMenu(true)} className="md:hidden w-14 h-14 text-4xl mr-2 text-white rounded-full cursor-pointer">&#8801;</p>
         </div>
       </div>
+
       {showMobileMenu && (
         <>
           <div
@@ -105,8 +105,3 @@ function Navbar() {
 }
 
 export default Navbar;
-
-
-
-
-
