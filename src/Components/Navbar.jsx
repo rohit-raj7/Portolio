@@ -4,7 +4,23 @@ import { assets } from '../assets/assets';
 function Navbar() {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
   const [showAboutMenu, setShowAboutMenu] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+   useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
 
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+  
   useEffect(() => {
     if (showMobileMenu) {
       document.body.style.overflow = 'hidden';
