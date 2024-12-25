@@ -3,7 +3,7 @@ import { assets } from '../assets/assets';
 
 function Navbar() {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
-  const [showAboutMenu, setShowAboutMenu] = useState(false);
+  // const [showAboutMenu, setShowAboutMenu] = useState(false);
   // const [isScrolled, setIsScrolled] = useState(false);
 
   // Handle scroll to fix the navbar
