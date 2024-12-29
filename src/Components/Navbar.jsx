@@ -22,7 +22,34 @@ function Navbar() {
     <div className="absolute top-0 left-0 w-full z-10">
       <div className="container mx-auto flex justify-between items-center py-4 px-6 md:px-20 lg:px-32 bg-transparent">
         <div className="flex items-center space-x-2">
-          <img src={assets.logo} alt="Logo" className="h-10 w-10" />
+{/*           <img src={assets.logo} alt="Logo" className="h-10 w-10" /> */}
+           <div className="text-white flex items-center gap-1 text-2xl">
+      
+      <div className="text-gray-100 text-4xl">
+        <p>&#123;</p>
+      </div>
+      
+      <div className="flex flex-row">
+        <p>&#82;</p>
+        <p>&#79;</p>
+        <p>&#72;</p>
+        <p>&#73;</p>
+        <p>&#84;</p>
+      </div>
+      {/* Gap */}
+      <div className="w-0"></div>
+      
+      <div className="flex flex-row">
+        <p>&#82;</p>
+        <p>&#65;</p>
+        <p>&#74;</p>
+      </div>
+      {/* Closing Bracket */}
+      <div className="text-gray-100 text-4xl">
+        <p>&#125;</p>
+      </div>
+    </div>
+          {/* <Rlogo/> */}
           {/* <span className='text-3xl font-medium'>Rohit Raj</span> */}
         </div>
 
