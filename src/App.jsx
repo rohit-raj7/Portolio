@@ -41,9 +41,6 @@
 
 
 
-
-
-
 import React, { useState, useEffect } from 'react';
 import Header from './Components/Header';
 import About from './Components/About';
@@ -58,46 +55,66 @@ import Skills from './Components/Skills';
 import Experience from './Components/Experience';
 import './style/Logo.css';
 
-// Define Rlogo component outside of App
-
-  @keyframes border-draw {
-    0% {
-      stroke-dasharray: 0, 400;
-    }
-    100% {
-      stroke-dasharray: 300, 0;
-    }
-  }
-  
-  .rounding-border {
-    stroke-dasharray: 0, 400;
-    animation: border-draw 2s linear forwards; /* Stops after one iteration */
-  }
-  
+const Rlogo = () => {
+  return (
+    <div className="flex justify-center items-center min-h-screen bg-gray-900">
+      <div className="flex justify-center items-center">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          role="img"
+          viewBox="0 0 100 100"
+          className="w-24 h-24 sm:w-38 sm:h-38 lg:w-44 lg:h-44"
+          aria-label="Hexagon with R"
+        >
+          {/* Hexagon */}
+          <polygon
+            points="50,5 93,27.5 93,72.5 50,95 7,72.5 7,27.5"
+            fill="none"
+            stroke="#00FFFF"
+            strokeWidth="6"
+            className="rounding-border"
+          />
+          {/* Letter R */}
+          <text
+            x="50%"
+            y="50%"
+            textAnchor="middle"
+            fill="#00FFFF"
+            fontSize="45px"
+            fontFamily="Consolas, monospace"
+            dominantBaseline="middle"
+            fontWeight="bold"
+          >
+            R
+          </text>
+        </svg>
+      </div>
+    </div>
+  );
+};
 
 function App() {
-  
   const [showRlogo, setShowRlogo] = useState(true);
 
-  // Effect to hide Rlogo after 1 second
   useEffect(() => {
-    // Check if the Rlogo has been shown in this session
     const logoShown = sessionStorage.getItem('RlogoShown');
-    
+
     if (!logoShown) {
       const timer = setTimeout(() => {
-        setShowRlogo(false); 
-        sessionStorage.setItem('RlogoShown', 'true'); 
-      }, 1500);
+        setShowRlogo(false); // Hide Rlogo after 2 seconds
+        sessionStorage.setItem('RlogoShown', 'true'); // Persist in session
+      }, 2000);
+
+      // Cleanup
       return () => clearTimeout(timer);
     } else {
-      
       setShowRlogo(false);
     }
   }, []);
 
   return (
     <div className="w-full overflow-hidden">
+      {/* Display Rlogo only when showRlogo is true */}
       {showRlogo ? <Rlogo /> : null}
 
       <ToastContainer />
