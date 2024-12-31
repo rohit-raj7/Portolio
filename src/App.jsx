@@ -39,8 +39,6 @@
 
 // export default App;
 
-
-
 import React, { useState, useEffect } from 'react';
 import Header from './Components/Header';
 import About from './Components/About';
@@ -63,7 +61,7 @@ const Rlogo = () => {
           xmlns="http://www.w3.org/2000/svg"
           role="img"
           viewBox="0 0 100 100"
-          className="w-24 h-24 sm:w-38 sm:h-38 lg:w-44 lg:h-44"
+          className="w-24 h-24 sm:w-32 sm:h-32 lg:w-48 lg:h-48" // Adjust sizes for breakpoints
           aria-label="Hexagon with R"
         >
           {/* Hexagon */}
@@ -71,7 +69,7 @@ const Rlogo = () => {
             points="50,5 93,27.5 93,72.5 50,95 7,72.5 7,27.5"
             fill="none"
             stroke="#00FFFF"
-            strokeWidth="5"
+            strokeWidth="4"
             className="rounding-border"
           />
           {/* Letter R */}
@@ -93,6 +91,7 @@ const Rlogo = () => {
   );
 };
 
+
 function App() {
   const [showRlogo, setShowRlogo] = useState(true);
 
@@ -103,7 +102,7 @@ function App() {
       const timer = setTimeout(() => {
         setShowRlogo(false); // Hide Rlogo after 2 seconds
         sessionStorage.setItem('RlogoShown', 'true'); // Persist in session
-      }, 2000);
+      },2000);
 
       // Cleanup
       return () => clearTimeout(timer);
@@ -134,4 +133,19 @@ function App() {
 }
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
