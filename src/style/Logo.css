@@ -7,6 +7,24 @@
     position: absolute;
     border-radius: 50%;
     transition: transform 2s ease-out, opacity 2s ease-out;
-    background-color: transparent;  /* Optional, if you want to ensure no background color */
+    background-color: transparent; 
+  }
+
+
+
+
+
+  @keyframes border-draw {
+    0% {
+      stroke-dasharray: 0, 400;
+    }
+    100% {
+      stroke-dasharray: 300, 0;
+    }
+  }
+  
+  .rounding-border {
+    stroke-dasharray: 0, 400;
+    animation: border-draw 2s linear forwards; 
   }
   
