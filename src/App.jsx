@@ -71,7 +71,7 @@ const Rlogo = () => {
             points="50,5 93,27.5 93,72.5 50,95 7,72.5 7,27.5"
             fill="none"
             stroke="#00FFFF"
-            strokeWidth="6"
+            strokeWidth="5"
             className="rounding-border"
           />
           {/* Letter R */}
