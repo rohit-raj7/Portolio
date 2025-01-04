@@ -264,7 +264,7 @@ export const projectsData = [
 
 export const projectData = [
   {
-    name: "Automatically Fill Form",
+    name:"Autofiller",
     title: "Tech Stack",
     techStack: [code_img6, language_img6,language_img3],
     image: Auto_fill_img,
