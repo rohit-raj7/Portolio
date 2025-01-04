@@ -12,9 +12,7 @@ function About() {
     >
       <h1 className="text-2xl sm:text-4xl font-bold mb-4">
         About{' '}
-        <span className="underline underline-offset-4 decoration-2 font-light">
-          Our Brand
-        </span>
+       
       </h1>
 
       <div className="flex flex-col items-center md:items-center mt-10 text-white">
