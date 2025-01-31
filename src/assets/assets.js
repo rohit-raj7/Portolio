@@ -50,6 +50,7 @@ import inter_college_img from './Sarvajanik Inter College Samukhiamore, Banka.pn
 import pwjava_img from './pwjavaDsa.png';
 import selceforce_cerificat_img from './selceforce_cerificat_img.png';
 import Cisco_cerificat_img from './Cisco_img.jpeg';
+import linked_certificate_img from './linked_certificate_img.jpeg'
 import CodeIndex_certificate_img from './codindex.png';
 import x_img from './x.png';
 import salesforce from './salesforce-cover.png';
