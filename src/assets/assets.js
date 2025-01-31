@@ -50,7 +50,7 @@ import inter_college_img from './Sarvajanik Inter College Samukhiamore, Banka.pn
 import pwjava_img from './pwjavaDsa.png'
 import selceforce_cerificat_img from './selceforce_cerificat_img.png'
 import Cisco_cerificat_img from './Cisco_img.jpeg'
-import linked_certificate_img from './linked_certificate_img.jpeg'
+import CodeIndex_certificate_img from './linked_certificate_img.jpeg'
 import x_img from './x.png'
 import salesforce from './salesforce-cover.png'
 import learningx from './learningx.png'
@@ -257,7 +257,7 @@ export const projectsData = [
       title: "Generative AI by Microsoft",   
       link: "Chicago",
       links_img: link_img,
-      src: "https://pwskills.com/learn/certificate/0ccd5dac-79ec-40ef-9f7c-0b92f71976a5/",
+      src: "https://drive.google.com/file/d/1eHpe-wX2eNs8V_JNDQdXtK2SRvF82FC_/view?usp=sharing",
       image: linked_certificate_img
     },
     
