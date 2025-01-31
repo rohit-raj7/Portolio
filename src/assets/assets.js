@@ -64,6 +64,7 @@ export const assets = {
     api_img,
     pwjava_img,
     selceforce_cerificat_img,
+    linked_certificate_img,
     link_img,
     logo_dark,
     cross_icon,
