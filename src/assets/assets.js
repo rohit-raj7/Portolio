@@ -50,7 +50,7 @@ import inter_college_img from './Sarvajanik Inter College Samukhiamore, Banka.pn
 import pwjava_img from './pwjavaDsa.png'
 import selceforce_cerificat_img from './selceforce_cerificat_img.png'
 import Cisco_cerificat_img from './Cisco_img.jpeg'
-import CodeIndex_certificate_img from './linked_certificate_img.jpeg'
+import CodeIndex_certificate_img from './codindex.png'
 import x_img from './x.png'
 import salesforce from './salesforce-cover.png'
 import learningx from './learningx.png'
@@ -103,7 +103,8 @@ export const assets = {
     github_img1,
     education_img,
     learningx,
-    links
+    links,
+    CodeIndex_certificate_img
    
 
 }
@@ -254,11 +255,11 @@ export const projectsData = [
       image:Cisco_cerificat_img
     },
    {
-      title: "Generative AI by Microsoft",   
+      title: "CODEXINTERN virtual internship",   
       link: "Chicago",
       links_img: link_img,
       src: "https://drive.google.com/file/d/1eHpe-wX2eNs8V_JNDQdXtK2SRvF82FC_/view?usp=sharing",
-      image: linked_certificate_img
+      image: CodeIndex_certificate_img
     },
     
   ];
