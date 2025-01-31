@@ -178,12 +178,7 @@ export const projectsData = [
     src: "https://pwskills.com/learn/certificate/0ccd5dac-79ec-40ef-9f7c-0b92f71976a5/",
     image: pwjava_img
   },
-  {
-    title: "Generative AI by Microsoft",
-    links_img: link_img,
-    src: "https://www.linkedin.com/learning/certificates/11d141cd8da7828ef4a3b66d19c2b8b95d4f5026a55529ab2830a995991632d2?trk=share_certificate&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3Bzic%2FK%2F%2F5RYCLmoxOYXprJg%3D%3D",
-    image: linked_certificate_img
-  },
+ 
   {
     title: "Salesforce Developer Intern",
     links_img: link_img,
@@ -191,16 +186,23 @@ export const projectsData = [
     image: selceforce_cerificat_img
   },
   {
+    title: "CODEXINTERN virtual internship",   
+    links_img: link_img,
+    src: "https://drive.google.com/file/d/1eHpe-wX2eNs8V_JNDQdXtK2SRvF82FC_/view?usp=sharing",
+    image: CodeIndex_certificate_img
+  },
+  {
     title: "Cisco Certificate",
     links_img: link_img,
     src: "https://drive.google.com/file/d/163sipqfZJRw7ji-12igCcun_ME-888Iv/view",
     image: Cisco_cerificat_img
   },
-  {
-    title: "CODEXINTERN virtual internship",   
+  
+     {
+    title: "Generative AI by Microsoft",
     links_img: link_img,
-    src: "https://drive.google.com/file/d/1eHpe-wX2eNs8V_JNDQdXtK2SRvF82FC_/view?usp=sharing",
-    image: CodeIndex_certificate_img
+    src: "https://www.linkedin.com/learning/certificates/11d141cd8da7828ef4a3b66d19c2b8b95d4f5026a55529ab2830a995991632d2?trk=share_certificate&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3Bzic%2FK%2F%2F5RYCLmoxOYXprJg%3D%3D",
+    image: linked_certificate_img
   },
 ];
 
