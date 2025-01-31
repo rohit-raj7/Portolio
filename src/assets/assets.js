@@ -12,6 +12,7 @@ import weather_img from './weather_logo.jpg'
 import queue_img from './Queue_img.jpg'
 import Task_management_img from './Task_management_img.png'
 import Auto_fill_img from './222028.png'
+import PortfolioLogo from './PortfolioLogo.jpg'
 import rohit_img from './rohit.png'
 import bacckground_img from './200w.webp';
 import playButton_img from './play-icon.png'
@@ -72,6 +73,7 @@ export const assets = {
     star_icon,
     header_img,
     brand_img,
+    PortfolioLogo,
     left_arrow,
     right_arrow,
     rohit_img,
@@ -311,7 +313,7 @@ export const projectData = [
     name: "Portfolio",
     title: "Tech Stack",
     techStack: [language_img4, language_img5, language_img6],
-    image: Task_management_img,
+    image: PortfolioLogo,
     github: github_img,
     github_src:"https://github.com/rohit-raj7/Portolio",
     link: link_img,
