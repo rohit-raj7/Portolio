@@ -246,7 +246,7 @@ export const projectData = [
     techStack: [code_img6, language_img6, language_img3, api_img],
     image: weather_img,
     github: github_img,
-    github_src: "https://github.com/rohit-raj7",
+   github_src:"https://github.com/rohit-raj7/weather-app",
     link: link_img,
     link_src: "https://weather-webapp-7.netlify.app/",
     text: "A weather app that provides real-time data using a weather API...",
