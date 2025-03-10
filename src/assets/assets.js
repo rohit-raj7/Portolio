@@ -152,7 +152,7 @@ export const ExperienceData = [
     link_src: "https://smartinternz.com/internships/salesforce_certificates/9084c6f938aedee18e63af5c2167ecab",
   },
   {
-    year: "Oct 2024 - Dec 2024",
+    year: "Oct 2024 - Jun 2025",
     title: "LearningX",
     position: "Frontend Developer Internship",
     description: "As a frontend intern, I worked with JavaScript and React to build interactive websites. I collaborated with APIs to fetch, manipulate, and display data, optimizing the user experience.",
