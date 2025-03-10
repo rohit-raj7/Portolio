@@ -13,7 +13,7 @@ import queue_img from './Queue_img.jpg';
 import Task_management_img from './Task_management_img.png';
 import Auto_fill_img from './222028.png';
 import PortfolioLogo from './PortfolioLogo.jpg';
-import rohit_img from './rohit.png';
+import rohit_img from './rohit.jpeg';
 import bacckground_img from './200w.webp';
 import playButton_img from './play-icon.png';
 import message_img from './message.png';
