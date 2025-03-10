@@ -38,9 +38,12 @@ function About() {
         </div>
 
         {/* About Description */}
-        <div id='about' className='text-white ml-4 md:ml-10 w-full md:w-1/2 mt-4 md:mt-0'>
-          <p className="text-gray-400 text-[17px] md:text-xl lg:text-[17px]">
-            I’m <span className='text-blue-300'>Rohit Raj</span>, a B.Tech student in Computer Science and Engineering (IoT).
+        <div className="relative left-1 text-white p-4 md:p-4 rounded-lg w-full md:w-3/4 lg:w-1/2 mx-auto shadow-lg">
+          <div className="absolute top-1 left-0 w-9 h-9 border-t-4 border-l-4  border-sky-400 "></div>
+          <div className="absolute bottom-0 right-1 w-9 h-9 border-b-4 border-r-4 border-sky-400"></div>
+
+          <p className="text-gray-300 text-[17px] md:text-xl">
+            I’m <a className=" text-blue-300 cursor-pointer">Rohit Raj</a>, a B.Tech student in Computer Science and Engineering (IoT).
             Passionate about technology, I specialize in frontend development, problem-solving, and project building.
             With hands-on experience in programming, I strive to create impactful solutions that drive innovation and
             enhance user experiences in the evolving tech landscape.
