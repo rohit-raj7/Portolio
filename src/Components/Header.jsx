@@ -55,7 +55,7 @@ function Header() {
       </motion.div>
 
       <div className="hidden">
-        <Logo />
+{/*         <Logo /> */}
       </div>
     </div>
   );
