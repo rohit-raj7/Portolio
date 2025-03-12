@@ -56,6 +56,7 @@ import x_img from './x.png';
 import salesforce from './salesforce-cover.png';
 import learningx from './learningx.png';
 import links from './links.png';
+import mongoDB from './mongoDB.png';
 
 export const assets = {
     logo,
@@ -104,7 +105,8 @@ export const assets = {
     education_img,
     learningx,
     links,
-    CodeIndex_certificate_img
+    CodeIndex_certificate_img,
+    mongoDB
 };
 
 export const skillData = [
@@ -130,6 +132,7 @@ export const skillData = [
   {
     category: "tools",
     skills: [
+     { logo: mongoDB, title: "MongoDB" },
       { logo: git_img, title: "Git" },
       { logo: github_img1, title: "GitHub" },
       { logo: language_img8, title: "Gitlab" },
