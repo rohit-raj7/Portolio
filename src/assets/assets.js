@@ -58,6 +58,9 @@ import learningx from './learningx.png';
 import links from './links.png';
 import mongoDB from './mongoDB.png';
 
+import Internship_LearningX from './Internship_LearningX.jpg';
+
+
 export const assets = {
     logo,
     x_img,
@@ -106,7 +109,8 @@ export const assets = {
     learningx,
     links,
     CodeIndex_certificate_img,
-    mongoDB
+    mongoDB,
+    Internship_LearningX
 };
 
 export const skillData = [
@@ -161,7 +165,7 @@ export const ExperienceData = [
     description: "As a frontend intern, I worked with JavaScript and React to build interactive websites. I collaborated with APIs to fetch, manipulate, and display data, optimizing the user experience.",
     img: learningx,
     link: links,
-    link_src: "www.yout.coe",
+    link_src: "https://drive.google.com/file/d/1_k43ygGRi9G329K2MR4FAgiAoAzyYG8J/view?usp=sharing",
   },
   {
     year: "2025",
@@ -180,6 +184,14 @@ export const projectsData = [
     links_img: link_img,
     src: "https://pwskills.com/learn/certificate/0ccd5dac-79ec-40ef-9f7c-0b92f71976a5/",
     image: pwjava_img
+  },
+    
+ 
+  {
+    title: "Frontend Developer Intership",
+    links_img: link_img,
+    src: "https://drive.google.com/file/d/1_k43ygGRi9G329K2MR4FAgiAoAzyYG8J/view?usp=sharing",
+    image:Internship_LearningX
   },
  
   {
