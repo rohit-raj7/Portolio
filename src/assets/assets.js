@@ -188,7 +188,7 @@ export const projectsData = [
     
  
   {
-    title: "Frontend Developer Intership",
+    title: "Frontend Developer Internship – LearningX",
     links_img: link_img,
     src: "https://drive.google.com/file/d/1_k43ygGRi9G329K2MR4FAgiAoAzyYG8J/view?usp=sharing",
     image:Internship_LearningX
