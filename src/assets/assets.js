@@ -57,6 +57,8 @@ import salesforce from './salesforce-cover.png';
 import learningx from './learningx.png';
 import links from './links.png';
 import mongoDB from './mongoDB.png';
+import udemy_certificate1 from './UC-7489a6e6-a32a-4489-92ae-ff3625b5d530.jpg';
+import udemy_certificate2 from './UC-908e4c20-e492-45d7-8609-58a5b9463f10.jpg';
 
 import Internship_LearningX from './Internship_LearningX.jpg';
 
@@ -110,7 +112,9 @@ export const assets = {
     links,
     CodeIndex_certificate_img,
     mongoDB,
-    Internship_LearningX
+    Internship_LearningX,
+    udemy_certificate1,
+    udemy_certificate2
 };
 
 export const skillData = [
@@ -219,6 +223,21 @@ export const projectsData = [
     src: "https://www.linkedin.com/learning/certificates/11d141cd8da7828ef4a3b66d19c2b8b95d4f5026a55529ab2830a995991632d2?trk=share_certificate&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3Bzic%2FK%2F%2F5RYCLmoxOYXprJg%3D%3D",
     image: linked_certificate_img
   },
+     {
+    title: "Udemy JavaScript,PHP,Python Programming",
+    links_img: link_img,
+    src: "https://www.udemy.com/certificate/UC-7489a6e6-a32a-4489-92ae-ff3625b5d530/",
+    image: udemy_certificate1
+  },
+    {
+    title: "Udemy Learing of HTML and CSS",
+    links_img: link_img,
+    src: "https://www.udemy.com/certificate/UC-908e4c20-e492-45d7-8609-58a5b9463f10/",
+    image: udemy_certificate2
+  },
+    
+    
+   
 ];
 
 export const projectData = [
