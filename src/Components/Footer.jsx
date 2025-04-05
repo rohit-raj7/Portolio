@@ -27,6 +27,8 @@ function Footer() {
                 <a href="#Contact" className='hover:text-white'>Contact us</a>
 {/*                 <a href="#" className='hover:text-white'>Privacy Policy</a> */}
                <a href="https://rohit-rajfsdfsf4.netlify.app/" target="_blank" rel="noopener noreferrer" className='hover:text-white'>Privacy Policy</a>
+               <a href="https://companies-careers.netlify.app/" target="_blank" rel="noopener noreferrer" className='hover:text-white'>career </a>
+        
         
            
             </ul>
