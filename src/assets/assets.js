@@ -57,6 +57,9 @@ import salesforce from './salesforce-cover.png';
 import learningx from './learningx.png';
 import links from './links.png';
 import mongoDB from './mongoDB.png';
+
+import cloudinary from './cloudinary.png';
+import postman from './postman.png';
 import udemy_certificate1 from './UC-7489a6e6-a32a-4489-92ae-ff3625b5d530.jpg';
 import udemy_certificate2 from './UC-908e4c20-e492-45d7-8609-58a5b9463f10.jpg';
 
@@ -111,7 +114,7 @@ export const assets = {
     learningx,
     links,
     CodeIndex_certificate_img,
-    mongoDB,
+    mongoDB,postman,cloudinary,
     Internship_LearningX,
     udemy_certificate1,
     udemy_certificate2
@@ -140,7 +143,7 @@ export const skillData = [
   {
     category: "tools",
     skills: [
-     { logo: mongoDB, title: "MongoDB" },
+      { logo: mongoDB, title: "MongoDB" },
       { logo: git_img, title: "Git" },
       { logo: github_img1, title: "GitHub" },
       { logo: language_img8, title: "Gitlab" },
@@ -148,6 +151,8 @@ export const skillData = [
       { logo: language_img10, title: "ViteJS" },
       { logo: language_img11, title: "Mysql" },
       { logo: api_img, title: "Api" },
+      { logo: postman, title: "Postman" },
+      { logo: cloudinary, title: "Cloudinary" },
     ],
   },
 ];
