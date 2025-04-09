@@ -1,7 +1,7 @@
 
 
 import React, { useEffect, useState } from "react";
-import { database, ref, onValue, set, increment, update } from "../firebase.js";
+import { database, ref, onValue, set, increment, update } from "../firebase";
 
 const LiveUserCount = () => {
   const [liveUsers, setLiveUsers] = useState(0);
@@ -59,3 +59,4 @@ const LiveUserCount = () => {
 };
 
 export { LiveUserCount };
+
