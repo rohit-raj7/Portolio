@@ -51,12 +51,12 @@ const LiveUserCount = () => {
 
   return (
     <div className="flex flex-wrap gap-2 items-center justify-start my-4">
-      <div className="bg-[#111827] text-white px-6 py-3 rounded-lg border border-gray-500 shadow-md text-center text-base md:text-lg font-medium">
+{/*       <div className="bg-[#111827] text-white px-6 py-3 rounded-lg border border-gray-500 shadow-md text-center text-base md:text-lg font-medium">
         🔴 Live: <strong className="text-green-400">{liveUsers}</strong>
       </div>
       <div className="bg-[#111827] text-white px-6 py-3 rounded-lg border border-gray-500 shadow-md text-center text-base md:text-lg font-medium">
         👥 Total Views : <strong className="text-blue-400">{totalUsers}</strong>
-      </div>
+      </div> */}
     </div>
   );
 };
